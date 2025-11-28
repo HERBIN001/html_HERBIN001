@@ -16,8 +16,30 @@ body{
 }
 /* estilos para el cabezado con degradado */
 .site-header{
-    background: linear-gradient(100deg, gold, green);
-    color: black
+    background: linear-gradient(100deg, gold, white);
+    color: rgba(8, 25, 39, 0.914);
     padding: 1rem;
     text-align: center;
+}.subtitle{
+    opacity: 9.5%;
+}
+
+.content{
+    display: flex; /* coloca las tarjetas una al lado de la otra */
+    gap: 4rem; /* separar las tarjetas */
+    flex-wrap: wrap; /* permitir que las tarjetas sbajen si no caben */
+    justify-content: center;
+    padding: 2rem;
+    
+}
+
+.card{
+    background: rgba(255, 255, 255, 0.8);
+    color: rgb(8, 25, 39);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    transition: transform 0.3s ease;
 }
