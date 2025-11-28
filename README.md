@@ -28,3 +28,5 @@ las contribuciones son bienvenidas, si desea participar
 ## licencia
 
 Este proyecto esta bajo la licencia en MIT
+
+##seccion repo remoto
